@@ -1,1 +1,4 @@
 # desafio_seguros
+Desarrollo de un modelo predictivo sobre el riesgo crediticio (morosidad) de clientes principalmente extranjeros. Para ello se aplicó la metodología CRISP-DM para la limpieza y tratamiento y procesamiento de los datos IBM SPSS Modeler en su versión 18.1
+En cuanto a la predicción de los clientes morosos, su probabilidad de ocurrencia, precio base para cada cliente se usó técnicas de machine learning como Redes Bayesianas (TAN y Manto Markow) y una Regresión Logística para determinar cual presentaba mayor estabilidad, resultando el mejor modelo la Red Markow
+Finalmente, para estimar los precios bases y riesgos crediticios medios (valor de la penalización p) de los clientes, estos fueron agrupados en clúster a partir del método de K-medias, de la que se estructuraron 5 tipos de clúster y cuyos valores medios resultaron distintos entre los grupos y estadísticamente significativos
